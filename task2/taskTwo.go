@@ -1,7 +1,7 @@
 package task2
 
-const realEmail string = "yusufsmd58@gmail.com"
-const realPassword string = "@admin123"
+const realEmail string = "admin@gmail.com"
+const realPassword string = "@admin"
 
 func TryLogin(email string, password string) (string, bool) {
 	if email != realEmail && password != realPassword {
