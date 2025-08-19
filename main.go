@@ -7,6 +7,7 @@ import (
 	"github.com/m16yusuf/w8d1-mtgo/task2"
 	"github.com/m16yusuf/w8d1-mtgo/task3"
 	"github.com/m16yusuf/w8d1-mtgo/task4"
+	"github.com/m16yusuf/w8d1-mtgo/task5"
 )
 
 func main() {
@@ -47,4 +48,9 @@ func main() {
 	fmt.Println("masukan skala suhu tersebut : ")
 	fmt.Scanln(&skalaInput)
 	task4.KonversiSuhu(suhuInput, skalaInput)
+
+	// tugas 5
+	fmt.Println("============================")
+	fmt.Println("==========TASK 4============")
+	task5.Menambahkan(88)
 }
