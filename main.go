@@ -6,6 +6,7 @@ import (
 	"github.com/m16yusuf/w8d1-mtgo/task1"
 	"github.com/m16yusuf/w8d1-mtgo/task2"
 	"github.com/m16yusuf/w8d1-mtgo/task3"
+	"github.com/m16yusuf/w8d1-mtgo/task4"
 )
 
 func main() {
@@ -35,4 +36,15 @@ func main() {
 	fmt.Println("============================")
 	fmt.Println("==========TASK 3============")
 	fmt.Println(task3.WhichBigger(task3.MyBulatPositif))
+
+	// Tugas 4
+	fmt.Println("============================")
+	fmt.Println("==========TASK 4============")
+	var suhuInput int
+	var skalaInput string
+	fmt.Println("masukan nilai suhu : ")
+	fmt.Scanln(&suhuInput)
+	fmt.Println("masukan skala suhu tersebut : ")
+	fmt.Scanln(&skalaInput)
+	task4.KonversiSuhu(suhuInput, skalaInput)
 }
