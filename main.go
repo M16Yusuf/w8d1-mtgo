@@ -17,7 +17,7 @@ func main() {
 
 	// Tugas 2
 	isLogin := false
-	for isLogin {
+	for isLogin != true {
 		var emailInput string
 		var passInput string
 		fmt.Println("masukan email : ")
