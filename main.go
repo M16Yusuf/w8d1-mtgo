@@ -5,6 +5,7 @@ import (
 
 	"github.com/m16yusuf/w8d1-mtgo/task1"
 	"github.com/m16yusuf/w8d1-mtgo/task2"
+	"github.com/m16yusuf/w8d1-mtgo/task3"
 )
 
 func main() {
@@ -30,4 +31,8 @@ func main() {
 		isLogin = resIsLogin
 	}
 
+	// Tugas 3
+	fmt.Println("============================")
+	fmt.Println("==========TASK 3============")
+	fmt.Println(task3.WhichBigger(task3.MyBulatPositif))
 }
